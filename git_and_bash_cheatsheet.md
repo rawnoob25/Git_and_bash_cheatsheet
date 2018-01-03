@@ -1,4 +1,13 @@
-## Some useful bash and git commands for future reference 
+# Some useful bash and git commands for future reference 
+
+### Bash 
+
+* To print lines 10-15 of file (say f1.R) to terminal, run
+   ```bash
+   $ sed -n 10,15p f1.R
+   ``` 
+
+### Git
 
 * To list all files tracked by git in (current) working directory, run 
 	```bash 
