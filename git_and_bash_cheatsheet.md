@@ -6,6 +6,10 @@
    	```bash
    	$ sed -n 10,15p f1.R
    	``` 
+* To list only directories within the present working directory, run
+	```bash
+	$ ls -d */
+	``` 
 
 ### Git
 
