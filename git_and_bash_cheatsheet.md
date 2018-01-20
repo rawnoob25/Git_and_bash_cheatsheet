@@ -11,7 +11,7 @@
 	$ ls -d */
 	``` 
 
-* To prepend to file (say text.text), run following sequence (copied from https://stackoverflow.com/questions/10587615/unix-command-to-prepend-text-to-a-file):
+* To prepend to file (say text.txt), run following sequence (copied from https://stackoverflow.com/questions/10587615/unix-command-to-prepend-text-to-a-file):
 	```bash
 	$ echo "to be prepended" | cat - text.txt > text.txt.tmp
 	$ mv text.txt.tmp text.txt
