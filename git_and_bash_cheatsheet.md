@@ -17,7 +17,7 @@
 	$ mv text.txt.tmp text.txt
 	``` 
 
-* Assumping, extglob is installed, to remove all (including all directories) but a 
+* Assuming, extglob is installed, to remove all (including all directories) but a 
   particular file (say, file.txt) from working directory, run 
 	```bash
 	$ rm -r -- !(file.txt)
