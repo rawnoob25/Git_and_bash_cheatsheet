@@ -30,8 +30,13 @@
 See this link for uses of the find program: https://linode.com/docs/tools-reference/tools/find-files-in-linux-using-the-command-line/
 
 
-
 ### Git
+
+* To save commit msg (and subsequently exit commit msg screen)
+in built-in Git Bash editor, do the following: 
+1. Press Esc
+2. Press :x!
+
 
 * To list all files tracked by git in (current) working directory, run 
 	```bash 
