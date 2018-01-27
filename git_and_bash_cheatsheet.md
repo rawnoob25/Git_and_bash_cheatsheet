@@ -32,6 +32,11 @@ See this link for uses of the find program: https://linode.com/docs/tools-refere
 
 ### Git
 
+* To show diff between a commit (say 2abc) and its parent, run:
+	```bash
+	# git diff 2abc^ 
+	``` 
+
 * To save commit msg (and subsequently exit commit msg screen)
 in built-in Git Bash editor, do the following: 
 1. Press Esc
