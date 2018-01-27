@@ -23,6 +23,10 @@
 	$ rm -r -- !(file.txt)
 	``` 
 
+* To find all .txt files residing inside working directory, run: 
+	```bash
+	$ find . -name *.txt
+	```
 
 
 
