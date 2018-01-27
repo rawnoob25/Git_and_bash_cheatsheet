@@ -45,4 +45,8 @@ yet been adding to staging area), run:
 	```bash 
 	$ git checkout -- .
 	``` 
-	
+
+* To discard all unstaged changes to a specific file (say, t1.txt), run: 
+	```bash
+	$ git reset HEAD t1.txt
+	``` 
