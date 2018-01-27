@@ -67,10 +67,11 @@ currently checked out branch, run:
 	``` 
 
 * To save commit msg (and subsequently exit commit msg screen)
-in built-in Git Bash editor, do the following: 
-1. Press Esc
-2. Press :x!
-
+in built-in Git Bash commit msg editor, type following at editor prompt:
+<kbd>ESC</kbd>,<kbd>:x!</kbd>
+If you want to exit the commit msg screen without saving the commit (i.e.
+you'll be aborting the would-be commit), type following a editor prompt: 
+<kbd>ESC</kbd>,<kbd>:q!</kbd> 
 
 * To list all files tracked by git in (current) working directory, run 
 	```bash 
