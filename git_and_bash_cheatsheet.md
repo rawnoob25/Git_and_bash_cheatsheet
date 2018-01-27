@@ -50,3 +50,9 @@ yet been adding to staging area), run:
 	```bash
 	$ git reset HEAD t1.txt
 	``` 
+* To delete a local branch (say, br_to_del), you must not have it checked out. Check
+out another branch and then run:
+	```bash 
+	$ git branch -d br_to_del 
+	``` 
+ 
