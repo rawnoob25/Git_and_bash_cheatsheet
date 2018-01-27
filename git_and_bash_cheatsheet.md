@@ -27,6 +27,7 @@
 	```bash
 	$ find . -name *.txt
 	```
+See this link for uses of the find program: https://linode.com/docs/tools-reference/tools/find-files-in-linux-using-the-command-line/
 
 
 
