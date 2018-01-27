@@ -32,9 +32,38 @@ See this link for uses of the find program: https://linode.com/docs/tools-refere
 
 ### Git
 
+* To list all branches (including remotes), run
+	```bash 
+	$ git branch -a
+	``` 
+* To reset the head of a branch (say master) of a remote (say origin) to the parent
+(predecessor commit) of a local commit (say 2abc), run:
+	```bash
+	$ git push origin +2abc^:master
+	``` 
+In other words, the parent of local commit 2abc has been pushed to the head of 
+the remote branch origin/master. The caret ("^")
+indicates that we're resetting to the parent of local commit 2abc, the "+" indicates
+that we're doing a non-fastforward push (see this link for more info: http://christoph.ruegg.name/blog/git-howto-revert-a-commit-already-pushed-to-a-remote-reposit.html);
+the token after push ("origin" in this case) indicates the remote to which we're 
+pushing and the token after the colon ("master" in this case) indicates
+the branch on the remote to which we're pushing.
+
+* To remove the most recent commit from the currently checked out branch, run:
+	```bash 
+	$ git reset --hard HEAD^
+	``` 
+What we're doing is making the head its parent.
+
+* To remove the last 2 commits (that is, the 2 most recent commits) from the
+currently checked out branch, run:
+	```bash 
+	$ git reset --hard HEAD~2
+	``` 
+
 * To show diff between a commit (say 2abc) and its parent, run:
 	```bash
-	# git diff 2abc^ 
+	$ git diff 2abc^ 
 	``` 
 
 * To save commit msg (and subsequently exit commit msg screen)
