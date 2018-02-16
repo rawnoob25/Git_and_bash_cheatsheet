@@ -2,6 +2,15 @@
 
 ### Bash 
 
+* To create a hard link (called hard-link) to a file (say f.txt) in working directory, run 
+	```bash
+	$ ln f.txt hard-link 
+	``` 
+* To create a soft link (called soft-link) to a file (say f.txt) in working directory, run 
+	```bash 
+	$ ln -s f.txt soft-link
+	``` 
+
 * To print lines 10-15 of file (say f1.R) to terminal, run
    	```bash
    	$ sed -n 10,15p f1.R
