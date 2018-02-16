@@ -41,6 +41,12 @@ See this link for uses of the find program: https://linode.com/docs/tools-refere
 
 ### Git
 
+* When in the Git Bash native commit message editor (say when typing git commit 
+instead of git commit -m or when typing git commit -a (this combines adding 
+to staging area and commiting into one step)), to type the commit message, press 
+<kbd>i</kbd> to enter inline insert mode, type the message, press <kbd>ESC</kbd> onced finished, 
+and then type <kbd>:x!</kbd> to save and quit, or <kbd>:q!</kbd> to quit without saving. 
+
 * To list all branches (including remotes), run
 	```bash 
 	$ git branch -a
